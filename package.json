@@ -1,11 +1,10 @@
 {
-  "name": "backend",
+  "name": "todo-quarentena",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
