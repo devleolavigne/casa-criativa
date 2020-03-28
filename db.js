@@ -13,11 +13,6 @@ db.serialize(() => {
     );
   `);
 
-  //   db.all(`SELECT * FROM ideias`, (err, rows) => {
-  //     if (err) return console.log(err);
-
-  //     console.log(rows);
-  //   });
   //   db.run(`DELETE FROM ideias WHERE id = ?`, [1], err => {
   //     if (err) return console.log(err);
 
